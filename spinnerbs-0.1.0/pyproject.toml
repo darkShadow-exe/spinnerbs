@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling>=1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spinnerbs"
+version = "0.1.0"
+description = "A tiny library of spinner-friendly verbs for terminal status messages."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "spinnerbs contributors" }]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/spinnerbs"]

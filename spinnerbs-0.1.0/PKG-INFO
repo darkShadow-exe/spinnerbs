@@ -1,0 +1,26 @@
+Metadata-Version: 2.5
+Name: spinnerbs
+Version: 0.1.0
+Summary: A tiny library of spinner-friendly verbs for terminal status messages.
+Author: spinnerbs contributors
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# spinnerbs
+
+A tiny library for generating spinner-friendly verbs like "Loading", "Crunching", and "Whirring" for terminal status messages.
+
+## Usage
+
+```python
+from spinnerbs import random_verb, random_verbs
+
+print(random_verb())
+print(random_verbs(3))
+```
+
+## License
+
+MIT
